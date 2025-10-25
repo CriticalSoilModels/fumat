@@ -13,13 +13,17 @@ module-naming = false
 [dependencies]
 
 # stdlib = { git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm" }
-stdlib = {path = "../../stdlib"}
+# stdlib = {path = "../../stdlib"}
+stdlib = "*"
 fortplot = { git = "https://github.com/krystophny/fortplot" }
 
+[dev-dependencies]
+# stdlib = {path = "../../stdlib"}
 
 [install]
 library = false
 test = false
+
 [fortran]
 implicit-typing = false
 implicit-external = false

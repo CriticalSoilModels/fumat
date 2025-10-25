@@ -7,7 +7,7 @@ program main
    implicit none
 
    type(figure_t) :: fig
-   integer, parameter :: n = 5000000
+   integer, parameter :: n = 500000
    real(dp), dimension(n) :: x, yf
    integer :: i
 
