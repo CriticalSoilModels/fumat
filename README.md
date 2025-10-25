@@ -23,10 +23,10 @@ fpm build
 
 This will build the program in debug mode. Which is likely what you want so that the debugger can step into your umat.
 
-To run the unit tests:
+To run the main program use:
 
 ```
-fpm test
+fpm run
 ```
 
 To generate the documentation using [ford](https://github.com/Fortran-FOSS-Programmers/ford), run: ```ford ford.md```
